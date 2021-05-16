@@ -127,6 +127,8 @@
     }
     ```
 
+    见 [hello_concurrent_world.cpp](./hello_concurrent_world.cpp) 。
+
 区别：
 
 1. 增加了 `#include <thread>`。标准库头文件 `thread` 包含了管理线程的函数和类，而保护共享数据的函数和类在其他头文件声明。
