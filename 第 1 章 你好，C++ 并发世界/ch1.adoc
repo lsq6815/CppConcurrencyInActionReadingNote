@@ -1,12 +1,22 @@
 = 第 1 章 你好，{cpp} 并发世界
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
 :author: LSQ
 :email: lsq6815@gmail.com
 :source-highlighter: highlight.js
 :toc:
+:toc-placement!:
 // 记得把 VScode 的预览安全策略改为 disable
 :stem: latexmath
 
 在 {cpp}98 之后的 13 年后，{cpp}11 终于将**语言级**的多线程纳入标准，{cpp} 程序员再也不用依赖系统级的线程支持（例如 `pthreads` 和 `win32api` ），可以编写可移植的多线程代码。那么什么是**并发（concurrency）**和**多线程（multi-threading）**呢？
+
+toc::[]
 
 == 什么是并发
 
