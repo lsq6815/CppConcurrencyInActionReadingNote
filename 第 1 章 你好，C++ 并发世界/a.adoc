@@ -1,0 +1,78 @@
+= Document Title
+:author: LSQ
+:email: lsq6815@gmail.com
+:source-highlighter: highlight.js
+:toc:
+// 记得把 VScode 的预览安全策略改为 disable
+:stem: latexmath
+
+*bold*
+
+**b**old
+
+_italic_
+
+__i__talic
+
+`monospace`
+
+``m``onospace
+
+https://asciidoctor.org[Asciidoctor]
+
+link:ch1.adoc[ch1]
+
+
+See <<usage>>
+
+[#usage]
+== Usage
+
+. [[step-1]]Download the software
+
+image::https://d33wubrfki0l68.cloudfront.net/348e7376631816d3fe030c0a645d5b80187cbdb1/c9192/_/img/asciidoctor-logo.svg[Logo]
+
+[quote, 毛泽东, 贺新郎·读史]
+____
+盗跖庄屩流誉后，更陈王奋起挥黄钺
+____
+
+.Literal block
+....
+$ gem install asciidoctor
+....
+
+.Code block
+[source,java,numbered]
+----
+public class Person {
+  private String name;
+  public Person(String name) {
+    this.name = name;
+  }
+}
+----
+
+.Unordered list
+* apples
+* oranges
+** temple
+** navel
+* bananas
+
+.Ordered list
+. first
+. second
+. third
+
+The `'90s popularized a new form of music known as "`grunge`" rock.
+It'll turn out to have an impact that extended well beyond music.
+
+TIP: You can add line numbers to source listings by adding the word `numbered` in the attribute list after the language name.
+
+.Lightweight Markup
+****
+Writing languages that let you type less and express more.
+****
+
+stem:[sqrt(4) = 2]
